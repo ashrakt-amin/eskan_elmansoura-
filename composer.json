@@ -27,7 +27,11 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+           "files": [
+            "app/Helper/helpers.php",
+            "app/Helper/Helper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
@@ -60,6 +64,9 @@
         "sort-packages": true,
         "platform": {
             "php": "8.1"
+        },
+         "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     },
     "minimum-stability": "dev",
